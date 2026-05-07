@@ -1,0 +1,718 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #ffffff;
+    
+}
+
+/*NAV*/
+    .nav {
+        background: rgb(0, 0, 0);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 4dvw;
+        padding-bottom: 2dvh;
+        padding-right: 4dvw;
+    }
+
+    /*NAV-IZQUIERDA*/
+    .nav-izq {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    .nav-izq a {
+        color: #d2455d;
+        margin: 0;
+        font-size: 1.2rem 1dvw;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .nav-subtitulo {
+        color: #ffffff;
+        margin: 0;
+        font-size: 0.5rem 0.5dvw;
+        cursor: pointer;
+        margin-top: -2dvh;
+        
+    }
+
+    /*NAV-DERECHA*/
+    .nav-dcha {
+        display: flex;
+        gap: 2.8rem; 
+        transition: border-color 0.2s;
+        
+    }
+
+    .nav-dcha a {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 1.3rem;
+        transition: border-color 0.2s;
+    }
+    .nav-dcha a:hover {
+       color: #d2455d;
+    }
+/*HEADER*/
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: black;
+        margin-top: -2dvh;
+        padding-top: 16dvh;
+        
+    }
+
+    .header h2 {
+        font-size: 9rem;
+        display: flex;
+        justify-content: center;
+        color: #ffffff;
+        position: absolute;
+        margin-top: -100dvh;
+        
+    }
+    .header h3 {
+        font-size: 8rem;
+        color: #d2455d;
+        position: absolute;
+        margin-top: -80dvh;
+    }
+    .header h4 {
+        font-size: 2.7rem;
+        
+        color: #ffffff;
+        
+        position: absolute;
+        margin-top: 80dvh;
+    }
+    .header h5 {
+        font-size: 2.7rem;
+        
+        color: #ffffff;
+        position: absolute;
+        margin-top: 90dvh;
+    }
+    
+    .btn {
+        padding: 0.75rem 1rem;
+        background: #d2455d;
+        color: rgb(255, 255, 255);
+        border: 1px solid rgb(174, 0, 29);
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 2rem;
+        border-radius: 1REM;
+        margin: -2dvh;
+        display: flex;
+        align-items: center;
+    }
+
+    .btn:hover {
+        background-color: white;
+        color: #000000;
+        border-color:#000000;
+        
+    }
+
+/*ARTICULOS*/
+    /*Next Move*/
+    .que-es {
+        padding: 6dvh 6dvw;
+        display: flex;
+    }
+
+    .que-es h2 {
+        padding-right: 4dvw;
+        font-size: 1.2rem;
+    }
+
+    .que-es p {
+        padding-right: 2dvw;
+    }
+
+    /*Alumnos*/
+    .alumnos {
+        padding: 5dvh 4dvw 3dvw;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        background: rgb(255, 255, 255);
+        
+    }
+    
+    .alumnos h2 {
+        font-size: 2.3rem ;
+        margin: 0;
+        color: rgb(0, 0, 0);
+    }
+    
+    .alumnos span {
+        color: #d2455d;
+    }
+    .comentarios {
+        display: flex;
+        gap: 1.5rem;
+        flex-wrap: wrap;    
+    }
+    
+    .comentario {   
+        background: #1e1e1e;
+        border-radius: 1REM;
+        padding: 1.5rem;
+        display: flex;
+        flex-direction: row;
+        gap: 0.5rem;
+        height: 4dvh;
+        width: 25dvw;
+        align-items: center;
+    }
+    
+  
+
+    .texto {
+        color: #ffffff;
+        font-size: 0.85rem 0.3dvw;
+        margin: 0;
+        padding-right: 1dvw;
+    }
+    
+    .autor {
+        color: white;
+        font-size: 0.75rem 0.2dvw;
+        font-weight: bold;
+        margin: 0;
+    }
+
+    /*Formulario*/
+    .formulario {
+        background: #1a1a1a;
+        border-radius: 1rem;
+        padding: 10dvh;
+        padding-bottom: 10dvh;
+        margin-bottom: 8dvw;
+        margin-left: 18dvw;
+        margin-right: 18dvw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+    .fila1 {
+        display: flex;
+        justify-content: center;
+        gap: 9rem;
+        font-size: 1.5rem;
+        width: 100%;
+        color: #d2455d;
+        
+    }
+    .fila2{
+        display: flex;
+        justify-content: center;
+        gap: 7.8rem;
+        font-size: 1.2rem;
+        margin-bottom: 3dvh;
+        color: white;
+    }
+
+    .fila2 input {
+        width: 7dvw;
+        height: 3dvh;
+        margin-top: 1.5dvh;
+        font-size: 1rem;
+        border: 0.2rem solid #444;
+        background: #292929;
+        padding: 1dvw;
+    }
+
+    .fila2 input:hover{
+        border-color: #d2455d;
+    }
+
+    .fila3 {
+        margin-top: 1rem;
+        font-size: 1.5rem;
+        letter-spacing: 0.1rem;
+        display: flex;
+        justify-content: center;
+        color: #d2455d;
+    }
+    .fila4 {
+        
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2rem;
+        font-size: 1.2rem;
+        margin-bottom: 3dvh;
+        color: white;
+    }
+
+    .fila4 input {
+        width: 40dvw;
+        height: 3dvh;
+        margin-top: 1.5dvh;
+        font-size: 1rem;
+        color: #ffffff;
+        border: 0.2rem solid #444;
+        background: #292929;
+        padding: 1dvw;
+       
+    }
+
+    .fila4 input:hover{
+        border-color: #d2455d;
+    }
+    .boton-formulario {
+        width: 100%;
+        height: 7dvh;
+        margin-top: 1.5dvh;
+        font-size: 1rem;
+        border: 1px solid #444;
+        background: #292929;
+        color: #fff;
+        cursor: pointer;
+        
+    }
+
+    .boton-formulario:hover {
+        color:#d2455d;
+        border-color: rgb(0, 0, 0);
+        
+    }
+
+    .titulo h1 {
+        color: rgb(255, 255, 255);
+    }
+
+    /*Footer*/
+    footer {
+        display: flex;
+        justify-content: center;
+        background-color: #000000; 
+        color: white;
+        padding: 5dvw;
+    }
+
+    /*Programas*/
+    /*1*/
+    .programas {
+        display: flex;
+        justify-content: center;
+        gap: 1.3rem;
+        margin-top: 12dvw;
+        margin-left: 4dvw;
+        width: 90dvw;
+        height: 50dvh;
+        margin-bottom: 20dvh;
+    }
+
+    .programa1 {
+        background-color: #dadada;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2dvw;
+        border-radius: 1rem;
+    }
+
+    .programa1 h1 {
+        color: #d2455d;
+        font-size: 3.5rem;
+        margin-bottom: -0dvh;
+    }
+
+    .programa1 h2 {
+        margin-top: 1.5dvh;
+        font-size: 3rem;
+    }
+
+    .programa1 h3 {
+        font-size: 1.7rem;
+        margin-top: -1.2dvh;
+    }
+    .programa1 h4 {
+    font-size: 1.1rem;
+    
+    }
+
+    .programa1 h5 {
+        font-size: 1.1rem;
+        margin-top: -1.2dvh;
+    }
+    .programa1 h6 {
+        font-size: 1.1rem;
+        margin-top: -1.7dvh;
+    }
+
+    /*2*/
+    .programa2 {
+        background-color: #dadada;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2dvw;
+        border-radius: 1rem;
+    }
+
+    .programa2 h1 {
+        color: #d2455d;
+        font-size: 3.5rem;
+        margin-bottom: -0dvh;
+    }
+
+    .programa2 h2 {
+        margin-top: 1.5dvh;
+        font-size: 3rem;
+   }
+
+    .programa2 h3 {
+        font-size: 1.7rem;
+        margin-top: -1.2dvh;
+    }
+    .programa2 h4 {
+    font-size: 1.1rem;
+    }
+    .programa2 h5 {
+        font-size: 1.1rem;
+        margin-top: -1.2dvh;
+    }
+    .programa2 h6 {
+        font-size: 1.1rem;
+        margin-top: -1.7dvh;
+    }
+
+    /*3*/
+    .programa3 {
+        background-color: #dadada;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2dvw;
+        border-radius: 1rem;
+    }
+
+    .programa3 h1 {
+        color: #ae001d;
+        font-size: 3.5rem;
+        margin-bottom: -0dvh;
+    }
+
+    .programa3 h2 {
+        margin-top: 1.5dvh;
+        font-size: 3rem;
+    }
+
+    .programa3 h3 {
+        font-size: 1.7rem;
+        margin-top: -1.2dvh;
+    }
+    .programa3 h4 {
+    font-size: 1.1rem;
+    
+    }
+
+    .programa3 h5 {
+        font-size: 1.1rem;
+        margin-top: -1.2dvh;
+    }
+    .programa3 h6 {
+        font-size: 1.1rem;
+        margin-top: -1.7dvh;
+    }
+
+    /*Recursos*/
+    .recursos{
+        display: flex;
+        flex-direction: column;
+        margin: 6.5dvw;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .recurso1:hover {
+        .recurso1 h1:hover {
+            background-color:#d2455d;
+            color: white;
+        }
+    }
+    .recurso1 {
+        background-color: #dadada;
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        padding: 2dvw;
+        border-radius: 1rem;
+        width: 70%;
+    }
+
+    .recurso1 h1 {
+        color:#d2455d;
+        cursor: pointer;
+    }
+
+    
+    .recurso2 {
+        background-color: #dadada;
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        padding: 2dvw;
+        border-radius: 1rem;
+        width: 70%;
+    }
+
+    .recurso2 h1 {
+        color:#d2455d;
+        
+    }
+    .recurso3 {
+        background-color: #dadada;
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        padding: 2dvw;
+        border-radius: 1rem;
+        width: 70%;        
+    }
+    .recurso3 h1 {
+        color:#d2455d;
+        
+    }
+
+    /* CONTACTO */
+    .contacto0 {
+        
+        background-color: #212020;
+        color: white;
+        padding: 3dvw 8.8dvh;
+        font-size: 1rem;
+    }
+    .contacto {
+        display: flex;
+        justify-content: center;
+        padding: 3.6dvw;
+        background-color: #d7d7d7;
+    }
+    .contacto-izq {
+       
+        margin-right: 14dvw;
+        
+    }
+
+    .contacto1 p {
+        color: #000000;
+        font-size: larger;
+    }
+    .contacto1 a {
+        text-decoration: none;
+        color:black;
+    }
+    .contacto2 p {
+        color: #000000;
+        font-size: larger;
+        padding-top: 3dvh;
+    }
+    .contacto2 a {
+        text-decoration: none;
+        color:black;
+    }
+
+    .contacto3 {
+        padding-top: 4dvh;
+    }
+
+    .contacto3 span {
+        color: #000000;
+        padding-top: 16dvh;
+        padding-bottom: 1.6dvh;
+        font-size: larger
+    }
+
+    .contacto3 p {
+        padding-bottom: 3dvh;
+    }
+
+    .contacto4 span {
+        color:#000000;
+        padding-top: 1.6dvh;
+        font-size: larger
+    }
+    .contacto5 p {
+        color: #000000;
+        padding-top: 3dvh;
+        padding-bottom: 1dvh;
+        font-size: larger;
+    }
+        
+
+    .contacto5 a {
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+        color: #d2455d;
+        
+    }
+
+    .form2nombre p {
+        font-size: larger;
+    }
+    .form2nombre input {
+        border: 0.2rem solid #444;
+        background: #1a1a1a;
+        color: white;
+        padding: 2dvw 0.5dvh;
+        width: 12dvw;
+        height: 0dvh;
+        margin-bottom: 1dvh;
+        font-size: large;
+    }
+
+    .form2nombre input:hover {
+        border-color: #d2455d;
+    }
+    .form2email p {
+        font-size: larger;
+    }
+    .form2email input {
+        border: 0.2rem solid #444;
+        background: #1a1a1a;
+        color: white;
+        padding: 2dvw 0.5dvh;
+        width: 12dvw;
+        height: 0dvh;
+        margin-bottom: 1dvh;
+        font-size: large;
+    }
+    .form2email input:hover {
+        border-color: #d2455d;
+    }
+    .form2mensaje p {
+        font-size: larger;
+    }
+
+    .form2mensaje input {
+        border: 0.2rem solid #444;
+        background: #1a1a1a;
+        color: white;
+        padding: 2dvw 0.5dvh;
+        width: 12dvw;
+        height: 0dvh;
+        margin-bottom: 2dvh;
+        font-size: large;
+    }
+    .form2mensaje input:hover {
+        border-color: #d2455d;
+    }
+    .form2btn {
+        border: 0.2rem solid #444;
+        background: #1a1a1a;
+        color: rgb(174, 174, 174);
+        padding: 1dvw 0.5dvh;
+        width: 12.7dvw;
+        height: 0dvh;
+        margin-bottom: 2dvh;
+        font-size: large; 
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+    }
+
+    .form2btn:hover {
+        background-color:#d7d7d7;
+        color: rgb(34, 34, 34);
+        border-color: #f4536e;
+    }
+    
+
+/* ========== TABLET ========== */
+@media (max-width: 1024px) {
+
+    .programas {
+        flex-direction: column;
+        height: auto;
+        margin-top: 6dvw;
+        margin-left: 4dvw;
+        width: 90dvw;
+        margin-bottom: 10dvh;
+    }
+
+    .programa1 h1,
+    .programa2 h1,
+    .programa3 h1 {
+        font-size: 2.5rem;
+    }
+
+    .programa1 h2,
+    .programa2 h2,
+    .programa3 h2 {
+        font-size: 2rem;
+    }
+
+    .programa1 h3,
+    .programa2 h3,
+    .programa3 h3 {
+        font-size: 1.3rem;
+    }
+}
+
+/* ========== MÓVIL ========== */
+@media (max-width: 600px) {
+
+    .nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 3dvw 4dvw;
+        gap: 1rem;
+    }
+
+    .nav-dcha {
+        gap: 1.2rem;
+    }
+
+    .nav-dcha a {
+        font-size: 1rem;
+    }
+
+    .programas {
+        flex-direction: column;
+        height: auto;
+        margin-top: 4dvw;
+        margin-left: 2dvw;
+        width: 93dvw;
+        margin-bottom: 8dvh;
+    }
+
+    .programa1 h1,
+    .programa2 h1,
+    .programa3 h1 {
+        font-size: 2rem;
+    }
+
+    .programa1 h2,
+    .programa2 h2,
+    .programa3 h2 {
+        font-size: 1.6rem;
+    }
+
+    .programa1 h3,
+    .programa2 h3,
+    .programa3 h3 {
+        font-size: 1.1rem;
+    }
+
+    .programa1 h4, .programa1 h5, .programa1 h6,
+    .programa2 h4, .programa2 h5, .programa2 h6,
+    .programa3 h4, .programa3 h5, .programa3 h6 {
+        font-size: 0.95rem;
+    }
+}
